@@ -16,7 +16,6 @@ C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\WebAPI\obj\Debug\net8.0\Web
 C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\WebAPI\obj\Debug\net8.0\WebAPI.csproj.CoreCompileInputs.cache
 C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\WebAPI\obj\Debug\net8.0\WebAPI.sourcelink.json
 C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\WebAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\WebAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props

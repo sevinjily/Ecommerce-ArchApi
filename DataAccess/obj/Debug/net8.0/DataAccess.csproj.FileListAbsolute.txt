@@ -11,7 +11,6 @@ C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\DataAccess\obj\Debug\net8.0
 C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
 C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
 C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
-C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
 C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
 C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\DataAccess\obj\Debug\net8.0\DataAccess.dll
 C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll

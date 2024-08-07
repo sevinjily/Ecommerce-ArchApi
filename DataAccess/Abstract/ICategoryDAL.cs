@@ -1,5 +1,6 @@
 ﻿using Core.DataAccess;
 using Entities.Concrete;
+using Entities.DTOs.CategoryDTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,6 @@ namespace DataAccess.Abstract
 {
     public interface ICategoryDAL:IRepositoryBase<Category>
     {
-        Task AddCategory();
+        Task AddCategoryAsync(AddCategoryDTO model);
     }
 }

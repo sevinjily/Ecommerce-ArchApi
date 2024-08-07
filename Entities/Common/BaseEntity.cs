@@ -13,6 +13,6 @@ namespace Entities.Common
         public DateTime CreatedDate { get; set; }
         public DateTime? UpdatedDate { get; set; }
         public DateTime? DeletedDate { get; set; }
-        public virtual bool IsDelete { get; set; }
+        public virtual bool  IsDelete { get; set; }
     }
 }

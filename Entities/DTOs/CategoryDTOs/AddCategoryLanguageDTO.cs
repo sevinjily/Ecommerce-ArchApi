@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace Entities.DTOs.CategoryDTOs
 {
-    public class AddCategoryDTO
+    public class AddCategoryLanguageDTO
     {
-        public List<AddCategoryLanguageDTO> Language { get; set; }
+        public string LangCode { get; set; }
+        public string CategoryName { get; set; }
+
     }
 }

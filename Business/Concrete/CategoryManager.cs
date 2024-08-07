@@ -1,6 +1,7 @@
 ﻿using Business.Abstract;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs.CategoryDTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,9 +19,9 @@ namespace Business.Concrete
             _categoryDAL = categoryDAL;
         }
 
-        public void AddCategory(Category category)
+        public async Task AddCategoryAsyncByLanguage(AddCategoryDTO model)
         {
-            _categoryDAL.Add(category);
+           await _categoryDAL.AddCategoryAsync(model);
         }
     }
 }

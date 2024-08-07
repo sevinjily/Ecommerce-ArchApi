@@ -1,5 +1,6 @@
 ﻿using Business.Abstract;
 using Entities.Concrete;
+using Entities.DTOs.CategoryDTOs;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers
@@ -17,9 +18,9 @@ namespace WebAPI.Controllers
 
 
         [HttpPost]
-        public IActionResult Create(Category category)
+        public IActionResult Create(AddCategoryDTO model)
         {
-            _categoryService.AddCategory(category);
+            _categoryService.AddCategoryAsyncByLanguage(model);
             return Ok();
         }
     }
