@@ -15,7 +15,9 @@ namespace Business.DependencyResolver
     {
         public static void AddBusinessService(this IServiceCollection services)
         {
-            services.AddScoped<AppDbContext>();
+            //IoC-Inversion Of Control-Dependency-leri idare etmek ucundur.Yeni asililiqlari.
+
+            services.AddSingleton<AppDbContext>();
             services.AddSingleton<ICategoryService, CategoryManager>();
             services.AddSingleton<ICategoryDAL, EFCategoryDAL>();
         }

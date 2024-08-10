@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F03200FC-686D-486C-B3D5-B586504DEF74}|WebAPI\\WebAPI.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\webapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F03200FC-686D-486C-B3D5-B586504DEF74}|WebAPI\\WebAPI.csproj|c:\\users\\asus\\source\\repos\\ecommerce-architectureapi\\webapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F03200FC-686D-486C-B3D5-B586504DEF74}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F5F7E7-1590-463E-AAC0-ECE8C43E36A7}|Entities\\Entities.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\entities\\dtos\\categorydtos\\updatecategorylanguagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F5F7E7-1590-463E-AAC0-ECE8C43E36A7}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\categorydtos\\updatecategorylanguagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC36AFFC-D156-4D73-90D3-B670A8FB004E}|Business\\Business.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\business\\dependencyresolver\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC36AFFC-D156-4D73-90D3-B670A8FB004E}|Business\\Business.csproj|solutionrelative:business\\dependencyresolver\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D57ECED-ED81-4BA4-BEEC-6B914C066BE4}|Core\\Core.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\core\\dataaccess\\entityframework\\efrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D57ECED-ED81-4BA4-BEEC-6B914C066BE4}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\entityframework\\efrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB70F330-42CB-48AE-A165-189C2E0E5AD0}|DataAccess\\DataAccess.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\dataaccess\\concrete\\entityframework\\efcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB70F330-42CB-48AE-A165-189C2E0E5AD0}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BB70F330-42CB-48AE-A165-189C2E0E5AD0}|DataAccess\\DataAccess.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\dataaccess\\abstract\\icategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB70F330-42CB-48AE-A165-189C2E0E5AD0}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\icategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC36AFFC-D156-4D73-90D3-B670A8FB004E}|Business\\Business.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\business\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC36AFFC-D156-4D73-90D3-B670A8FB004E}|Business\\Business.csproj|solutionrelative:business\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB70F330-42CB-48AE-A165-189C2E0E5AD0}|DataAccess\\DataAccess.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\dataaccess\\concrete\\entityframework\\efcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB70F330-42CB-48AE-A165-189C2E0E5AD0}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D57ECED-ED81-4BA4-BEEC-6B914C066BE4}|Core\\Core.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\core\\dataaccess\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D57ECED-ED81-4BA4-BEEC-6B914C066BE4}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC36AFFC-D156-4D73-90D3-B670A8FB004E}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\ecommerce-architectureapi\\business\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC36AFFC-D156-4D73-90D3-B670A8FB004E}|Business\\Business.csproj|solutionrelative:business\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DC36AFFC-D156-4D73-90D3-B670A8FB004E}|Business\\Business.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\business\\abstract\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC36AFFC-D156-4D73-90D3-B670A8FB004E}|Business\\Business.csproj|solutionrelative:business\\abstract\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F5F7E7-1590-463E-AAC0-ECE8C43E36A7}|Entities\\Entities.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\entities\\dtos\\categorydtos\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F5F7E7-1590-463E-AAC0-ECE8C43E36A7}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\categorydtos\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F5F7E7-1590-463E-AAC0-ECE8C43E36A7}|Entities\\Entities.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\entities\\dtos\\categorydtos\\getcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F5F7E7-1590-463E-AAC0-ECE8C43E36A7}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\categorydtos\\getcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB70F330-42CB-48AE-A165-189C2E0E5AD0}|DataAccess\\DataAccess.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\dataaccess\\concrete\\entityframework\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,7 +63,7 @@
       "RelativeMoniker": "D:0:0:{07F5F7E7-1590-463E-AAC0-ECE8C43E36A7}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07F5F7E7-1590-463E-AAC0-ECE8C43E36A7}|Entities\\Entities.csproj|c:\\users\\asus\\source\\repos\\ecommerce-architectureapi\\entities\\dtos\\categorydtos\\addcategorylanguagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{07F5F7E7-1590-463E-AAC0-ECE8C43E36A7}|Entities\\Entities.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\entities\\dtos\\categorydtos\\addcategorylanguagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07F5F7E7-1590-463E-AAC0-ECE8C43E36A7}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\categorydtos\\addcategorylanguagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -69,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F03200FC-686D-486C-B3D5-B586504DEF74}|WebAPI\\WebAPI.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F03200FC-686D-486C-B3D5-B586504DEF74}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC36AFFC-D156-4D73-90D3-B670A8FB004E}|Business\\Business.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\business\\dependencyresolver\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC36AFFC-D156-4D73-90D3-B670A8FB004E}|Business\\Business.csproj|solutionrelative:business\\dependencyresolver\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC36AFFC-D156-4D73-90D3-B670A8FB004E}|Business\\Business.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -118,28 +130,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EFCategoryDAL.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\DataAccess\\Concrete\\EntityFramework\\EFCategoryDAL.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EFCategoryDAL.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\DataAccess\\Concrete\\EntityFramework\\EFCategoryDAL.cs",
-              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EFCategoryDAL.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwBMAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T14:52:37.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ICategoryDAL.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\DataAccess\\Abstract\\ICategoryDAL.cs",
               "RelativeDocumentMoniker": "DataAccess\\Abstract\\ICategoryDAL.cs",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\DataAccess\\Abstract\\ICategoryDAL.cs",
               "RelativeToolTip": "DataAccess\\Abstract\\ICategoryDAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAA0AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAD4vw8AAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T12:19:38.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EFRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Core\\DataAccess\\EntityFramework\\EFRepositoryBase.cs",
+              "RelativeDocumentMoniker": "Core\\DataAccess\\EntityFramework\\EFRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Core\\DataAccess\\EntityFramework\\EFRepositoryBase.cs",
+              "RelativeToolTip": "Core\\DataAccess\\EntityFramework\\EFRepositoryBase.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T12:08:45.878Z",
               "EditorCaption": ""
             },
             {
@@ -150,35 +162,35 @@
               "RelativeDocumentMoniker": "Business\\Concrete\\CategoryManager.cs",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Business\\Concrete\\CategoryManager.cs",
               "RelativeToolTip": "Business\\Concrete\\CategoryManager.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAA2AAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T14:35:39.321Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Core\\DataAccess\\IRepositoryBase.cs",
-              "RelativeDocumentMoniker": "Core\\DataAccess\\IRepositoryBase.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Core\\DataAccess\\IRepositoryBase.cs",
-              "RelativeToolTip": "Core\\DataAccess\\IRepositoryBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAA9AAAA",
+              "DocumentIndex": 2,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Business\\DependencyResolver\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Business\\DependencyResolver\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Business\\DependencyResolver\\ServiceRegistration.cs",
+              "RelativeToolTip": "Business\\DependencyResolver\\ServiceRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T11:29:46.677Z",
+              "WhenOpened": "2024-08-06T15:19:27.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EFRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Core\\DataAccess\\EntityFramework\\EFRepositoryBase.cs",
-              "RelativeDocumentMoniker": "Core\\DataAccess\\EntityFramework\\EFRepositoryBase.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Core\\DataAccess\\EntityFramework\\EFRepositoryBase.cs",
-              "RelativeToolTip": "Core\\DataAccess\\EntityFramework\\EFRepositoryBase.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAqAAAA",
+              "Title": "UpdateCategoryLanguageDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Entities\\DTOs\\CategoryDTOs\\UpdateCategoryLanguageDTO.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\CategoryDTOs\\UpdateCategoryLanguageDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Entities\\DTOs\\CategoryDTOs\\UpdateCategoryLanguageDTO.cs",
+              "RelativeToolTip": "Entities\\DTOs\\CategoryDTOs\\UpdateCategoryLanguageDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T12:08:45.878Z",
+              "WhenOpened": "2024-08-08T14:36:54.764Z",
               "EditorCaption": ""
             },
             {
@@ -189,7 +201,7 @@
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\WebAPI\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "WebAPI\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAABQAAAA5AAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAIAwwBYAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T14:59:31.617Z",
               "EditorCaption": ""
@@ -197,32 +209,82 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "EFCategoryDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\DataAccess\\Concrete\\EntityFramework\\EFCategoryDAL.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EFCategoryDAL.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\DataAccess\\Concrete\\EntityFramework\\EFCategoryDAL.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EFCategoryDAL.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAYwFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T14:52:37.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Core\\DataAccess\\IRepositoryBase.cs",
+              "RelativeDocumentMoniker": "Core\\DataAccess\\IRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Core\\DataAccess\\IRepositoryBase.cs",
+              "RelativeToolTip": "Core\\DataAccess\\IRepositoryBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T11:29:46.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Business\\Abstract\\ICategoryService.cs",
               "RelativeDocumentMoniker": "Business\\Abstract\\ICategoryService.cs",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Business\\Abstract\\ICategoryService.cs",
               "RelativeToolTip": "Business\\Abstract\\ICategoryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAABBAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAIAwwAwAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T14:34:27.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
+              "Title": "UpdateCategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Entities\\DTOs\\CategoryDTOs\\UpdateCategoryDTO.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\CategoryDTOs\\UpdateCategoryDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Entities\\DTOs\\CategoryDTOs\\UpdateCategoryDTO.cs",
+              "RelativeToolTip": "Entities\\DTOs\\CategoryDTOs\\UpdateCategoryDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T14:36:38.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetCategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Entities\\DTOs\\CategoryDTOs\\GetCategoryDTO.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\CategoryDTOs\\GetCategoryDTO.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Entities\\DTOs\\CategoryDTOs\\GetCategoryDTO.cs",
+              "RelativeToolTip": "Entities\\DTOs\\CategoryDTOs\\GetCategoryDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T11:41:49.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\DataAccess\\Concrete\\EntityFramework\\AppDbContext.cs",
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\DataAccess\\Concrete\\EntityFramework\\AppDbContext.cs",
               "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\AppDbContext.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAADwvxEAAAA3AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T13:43:04.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T13:43:04.592Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "CategoryLanguage.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Entities\\Concrete\\CategoryLanguage.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\CategoryLanguage.cs",
@@ -230,12 +292,11 @@
               "RelativeToolTip": "Entities\\Concrete\\CategoryLanguage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T09:39:59.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T09:39:59.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "AddCategoryDTO.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Entities\\DTOs\\CategoryDTOs\\AddCategoryDTO.cs",
               "RelativeDocumentMoniker": "Entities\\DTOs\\CategoryDTOs\\AddCategoryDTO.cs",
@@ -243,12 +304,11 @@
               "RelativeToolTip": "Entities\\DTOs\\CategoryDTOs\\AddCategoryDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T15:28:03.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T15:28:03.868Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Entities\\Concrete\\Category.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\Category.cs",
@@ -256,12 +316,11 @@
               "RelativeToolTip": "Entities\\Concrete\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T09:27:22.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T09:27:22.712Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "AddCategoryLanguageDTO.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Entities\\DTOs\\CategoryDTOs\\AddCategoryLanguageDTO.cs",
               "RelativeDocumentMoniker": "Entities\\DTOs\\CategoryDTOs\\AddCategoryLanguageDTO.cs",
@@ -269,12 +328,11 @@
               "RelativeToolTip": "Entities\\DTOs\\CategoryDTOs\\AddCategoryLanguageDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T06:32:58.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T06:32:58.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Entities\\Common\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Entities\\Common\\BaseEntity.cs",
@@ -286,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI\\Program.cs",
@@ -298,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "IEntity.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Core\\Entities\\IEntity.cs",
               "RelativeDocumentMoniker": "Core\\Entities\\IEntity.cs",
@@ -310,19 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Business\\DependencyResolver\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "Business\\DependencyResolver\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Business\\DependencyResolver\\ServiceRegistration.cs",
-              "RelativeToolTip": "Business\\DependencyResolver\\ServiceRegistration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T15:19:27.646Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Core",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Core\\Core.csproj",
               "RelativeDocumentMoniker": "Core\\Core.csproj",
@@ -334,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "20240806151537_Init.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\DataAccess\\Migrations\\20240806151537_Init.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240806151537_Init.cs",
@@ -346,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "Entities",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Entities\\Entities.csproj",
               "RelativeDocumentMoniker": "Entities\\Entities.csproj",
@@ -358,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Business",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Business\\Business.csproj",
               "RelativeDocumentMoniker": "Business\\Business.csproj",
@@ -370,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "DataAccess",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\DataAccess\\DataAccess.csproj",
               "RelativeDocumentMoniker": "DataAccess\\DataAccess.csproj",
@@ -382,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Brand.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Entities\\Concrete\\Brand.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\Brand.cs",
@@ -394,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "ProductPhoto.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Entities\\Concrete\\ProductPhoto.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\ProductPhoto.cs",
@@ -406,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "ProductLanguage.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Entities\\Concrete\\ProductLanguage.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\ProductLanguage.cs",
@@ -418,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Entities\\Concrete\\Product.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\Product.cs",

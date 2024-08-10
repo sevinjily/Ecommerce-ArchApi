@@ -11,5 +11,7 @@ namespace Business.Abstract
     public interface ICategoryService
     {
         Task AddCategoryAsyncByLanguage(AddCategoryDTO category);
+        Task UpdateCategoryAsyncByLanguage(UpdateCategoryDTO category);
+        GetCategoryDTO GetCategoryById(Guid id,string langCode);
     }
 }

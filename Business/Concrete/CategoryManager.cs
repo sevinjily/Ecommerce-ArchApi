@@ -23,5 +23,16 @@ namespace Business.Concrete
         {
            await _categoryDAL.AddCategoryAsync(model);
         }
+
+        public GetCategoryDTO GetCategoryById(Guid id, string langCode)
+        {
+           var result=_categoryDAL.GetCategoryById(id, langCode);
+            return result;
+        }
+
+        public async Task UpdateCategoryAsyncByLanguage(UpdateCategoryDTO model)
+        {
+            await _categoryDAL.UpdateCategoryAsync(model);
+        }
     }
 }
