@@ -51,7 +51,7 @@ namespace DataAccess.Concrete.EntityFramework
 			{
 				var context = new AppDbContext();
 				var findCategory=context.CategoryLanguages
-										.FirstOrDefault(x=>x.Id== id && x.LangCode==langCode);
+										.FirstOrDefault(x=>x.CategoryId== id && x.LangCode==langCode);
 
 				GetCategoryDTO getCategoryDTO = new()
 				{
@@ -80,7 +80,7 @@ namespace DataAccess.Concrete.EntityFramework
 					throw new Exception("Category not found");
 				}
 
-				var findCategories = context.CategoryLanguages.Where(x => x.Id == model.Id).ToList();
+				var findCategories = context.CategoryLanguages.Where(x => x.CategoryId == model.Id).ToList();
 				 context.CategoryLanguages.RemoveRange(findCategories);
 				await context.SaveChangesAsync();
 				for (int i = 0; i < model.Language.Count; i++)

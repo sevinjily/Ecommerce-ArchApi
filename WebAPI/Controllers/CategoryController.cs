@@ -18,9 +18,9 @@ namespace WebAPI.Controllers
 
 
         [HttpPost]
-        public IActionResult Create(AddCategoryDTO model)
+        public async  Task<IActionResult> Create(AddCategoryDTO model)
         {
-            _categoryService.AddCategoryAsyncByLanguage(model);
+           await _categoryService.AddCategoryAsyncByLanguage(model);
             return Ok();
         }
         [HttpPut("[action]")]
@@ -29,12 +29,26 @@ namespace WebAPI.Controllers
             await _categoryService.UpdateCategoryAsyncByLanguage(model);
             return Ok();
         }
-        [HttpGet("{id}")]
+        [HttpGet("{Id}")]
         public IActionResult Get([FromRoute] Guid Id)
         {
             var langCode = Request.Headers.AcceptLanguage.ToString();
             var result=_categoryService.GetCategoryById(Id,langCode);
+            if(result.Success)
+            
             return Ok(result);
+         return BadRequest(result);
+             
+            
+        }
+        [HttpDelete("{Id}")]
+        public async Task<IActionResult> Delete([FromRoute] Guid Id)
+        {
+         var result= _categoryService.DeleteCategory(Id);
+            if(result.Success)
+            return Ok(result);
+            return NotFound(result);
+
         }
     }
 }
