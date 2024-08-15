@@ -20,8 +20,12 @@ namespace WebAPI.Controllers
         [HttpPost]
         public async  Task<IActionResult> Create(AddCategoryDTO model)
         {
-           await _categoryService.AddCategoryAsyncByLanguage(model);
-            return Ok();
+           var result=await _categoryService.AddCategoryAsyncByLanguage(model);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
         }
         [HttpPut("[action]")]
         public async Task<IActionResult> Update([FromBody] UpdateCategoryDTO model)

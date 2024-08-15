@@ -23,9 +23,14 @@ namespace Business.Concrete
             _categoryDAL = categoryDAL;
         }
 
-        public async Task AddCategoryAsyncByLanguage(AddCategoryDTO model)
+        public async Task<IResult> AddCategoryAsyncByLanguage(AddCategoryDTO model)
         {
-           await _categoryDAL.AddCategoryAsync(model);
+          var result= await _categoryDAL.AddCategoryAsync(model);
+            if (result.Success)
+            {
+                return new SuccessResult(result.StatusCode);
+            }
+            return new ErrorResult(message:result.Message,result.StatusCode);
         }
 
         public IResult DeleteCategory(Guid id)
@@ -36,7 +41,7 @@ namespace Business.Concrete
 
 
             _categoryDAL.Delete(findCategory);
-            return new SuccessResult("Ugurla silindi",System.Net.HttpStatusCode.NotFound);
+            return new SuccessResult("Ugurla silindi",System.Net.HttpStatusCode.OK);
         }
 
         public IDataResult<GetCategoryDTO> GetCategoryById(Guid id, string langCode)

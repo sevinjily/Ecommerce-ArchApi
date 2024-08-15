@@ -11,7 +11,7 @@ namespace Business.Abstract
 {
     public interface ICategoryService
     {
-        Task AddCategoryAsyncByLanguage(AddCategoryDTO category);
+        Task<IResult> AddCategoryAsyncByLanguage(AddCategoryDTO category);
         Task UpdateCategoryAsyncByLanguage(UpdateCategoryDTO category);
        IDataResult< GetCategoryDTO> GetCategoryById(Guid id,string langCode);
         IResult DeleteCategory(Guid id);
