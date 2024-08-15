@@ -1,11 +1,13 @@
 ﻿using Core.Entities.Concrete;
 using Core.Utilities.Security.Abstract;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,7 +15,14 @@ namespace Core.Utilities.Security.Concrete
 {
     public class TokenManager : ITokenService
     {
-        public Task<Token> CreateAccessToken(AppUser appUser, List<string> roles)
+        private readonly UserManager<AppUser> _userManager;
+
+        public TokenManager(UserManager<AppUser> userManager)
+        {
+            _userManager = userManager;
+        }
+
+        public async Task<Token> CreateAccessToken(AppUser appUser, List<string> roles)
         {
            Token token = new();
             var claims = new List<Claim>()
@@ -36,12 +45,21 @@ namespace Core.Utilities.Security.Concrete
                 claims:claims,
                 signingCredentials:new SigningCredentials(key,SecurityAlgorithms.HmacSha512)
                 );
+            JwtSecurityTokenHandler tokenHandler = new();
+            token.AccessToken = tokenHandler.WriteToken(securityToken);
+            token.RefreshToken = CreateRefreshToken();
+            await _userManager.AddClaimsAsync(appUser, claims);
+            return token;
  
         }
 
-        public string RefreshToken()
+        public string CreateRefreshToken()
         {
-            throw new NotImplementedException();
+            byte[] number=new byte[32];
+            using RandomNumberGenerator random = RandomNumberGenerator.Create();
+            random.GetBytes(number);
+            return Convert.ToBase64String(number);
+
         }
     }
 }

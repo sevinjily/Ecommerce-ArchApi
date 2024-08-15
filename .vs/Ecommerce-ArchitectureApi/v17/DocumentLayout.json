@@ -7,19 +7,19 @@
       "RelativeMoniker": "D:0:0:{3D57ECED-ED81-4BA4-BEEC-6B914C066BE4}|Core\\Core.csproj|solutionrelative:core\\utilities\\security\\concrete\\tokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D57ECED-ED81-4BA4-BEEC-6B914C066BE4}|Core\\Core.csproj|c:\\users\\asus\\source\\repos\\ecommerce-architectureapi\\core\\entities\\concrete\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D57ECED-ED81-4BA4-BEEC-6B914C066BE4}|Core\\Core.csproj|solutionrelative:core\\entities\\concrete\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D57ECED-ED81-4BA4-BEEC-6B914C066BE4}|Core\\Core.csproj|c:\\users\\asus\\source\\repos\\ecommerce-architectureapi\\core\\utilities\\security\\abstract\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D57ECED-ED81-4BA4-BEEC-6B914C066BE4}|Core\\Core.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\core\\utilities\\security\\abstract\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D57ECED-ED81-4BA4-BEEC-6B914C066BE4}|Core\\Core.csproj|solutionrelative:core\\utilities\\security\\abstract\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D57ECED-ED81-4BA4-BEEC-6B914C066BE4}|Core\\Core.csproj|c:\\users\\asus\\source\\repos\\ecommerce-architectureapi\\core\\entities\\concrete\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D57ECED-ED81-4BA4-BEEC-6B914C066BE4}|Core\\Core.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\core\\entities\\concrete\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D57ECED-ED81-4BA4-BEEC-6B914C066BE4}|Core\\Core.csproj|solutionrelative:core\\entities\\concrete\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D57ECED-ED81-4BA4-BEEC-6B914C066BE4}|Core\\Core.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\core\\entities\\concrete\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D57ECED-ED81-4BA4-BEEC-6B914C066BE4}|Core\\Core.csproj|solutionrelative:core\\entities\\concrete\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D57ECED-ED81-4BA4-BEEC-6B914C066BE4}|Core\\Core.csproj|c:\\users\\asus\\source\\repos\\ecommerce-architectureapi\\core\\entities\\concrete\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D57ECED-ED81-4BA4-BEEC-6B914C066BE4}|Core\\Core.csproj|C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\core\\entities\\concrete\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D57ECED-ED81-4BA4-BEEC-6B914C066BE4}|Core\\Core.csproj|solutionrelative:core\\entities\\concrete\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -44,27 +44,27 @@
               "RelativeDocumentMoniker": "Core\\Utilities\\Security\\Concrete\\TokenManager.cs",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Core\\Utilities\\Security\\Concrete\\TokenManager.cs",
               "RelativeToolTip": "Core\\Utilities\\Security\\Concrete\\TokenManager.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwCQAAABcAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAjwDgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T14:22:43.597Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Core\\Utilities\\Security\\Abstract\\ITokenService.cs",
               "RelativeDocumentMoniker": "Core\\Utilities\\Security\\Abstract\\ITokenService.cs",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Core\\Utilities\\Security\\Abstract\\ITokenService.cs",
               "RelativeToolTip": "Core\\Utilities\\Security\\Abstract\\ITokenService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T14:22:30.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Token.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Core\\Entities\\Concrete\\Token.cs",
               "RelativeDocumentMoniker": "Core\\Entities\\Concrete\\Token.cs",
@@ -72,8 +72,7 @@
               "RelativeToolTip": "Core\\Entities\\Concrete\\Token.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T14:13:57.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T14:13:57.623Z"
             },
             {
               "$type": "Document",
@@ -85,8 +84,7 @@
               "RelativeToolTip": "Core\\Entities\\Concrete\\AppRole.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T14:11:35.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T14:11:35.813Z"
             },
             {
               "$type": "Document",
@@ -98,8 +96,7 @@
               "RelativeToolTip": "Core\\Entities\\Concrete\\AppUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T13:44:14.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T13:44:14.564Z"
             }
           ]
         },
