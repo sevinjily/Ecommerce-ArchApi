@@ -1,6 +1,7 @@
 ﻿using Core.Entities.Concrete;
 using Core.Utilities.Security.Abstract;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
@@ -16,10 +17,11 @@ namespace Core.Utilities.Security.Concrete
     public class TokenManager : ITokenService
     {
         private readonly UserManager<AppUser> _userManager;
-
-        public TokenManager(UserManager<AppUser> userManager)
+        private readonly IConfiguration _configuration;
+        public TokenManager(UserManager<AppUser> userManager, IConfiguration configuration)
         {
             _userManager = userManager;
+            _configuration = configuration;
         }
 
         public async Task<Token> CreateAccessToken(AppUser appUser, List<string> roles)
@@ -34,12 +36,12 @@ namespace Core.Utilities.Security.Concrete
             {
                 claims.Add(new Claim(ClaimTypes.Role, role));
             }
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(""));
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Token:SecurityKey"]));
             token.ExpiredDate= DateTime.Now.AddMinutes(2);
             JwtSecurityToken securityToken = new
                 (
-                issuer: "",
-                audience: "",
+                issuer: _configuration["Token:Issuer"],
+                audience: _configuration["Token:Audience"],
                 expires:token.ExpiredDate,
                 notBefore:DateTime.Now,
                 claims:claims,
