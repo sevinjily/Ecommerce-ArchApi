@@ -1,5 +1,6 @@
 using Business.DependencyResolver;
 using Core.DependencyResolver;
+using FluentValidation.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,14 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+#region FluentValidation
+FluentValidationMvcExtensions.AddFluentValidation(builder.Services.AddControllersWithViews(), x =>
+{
+    x.RegisterValidatorsFromAssemblyContaining<Program>();
+    x.ValidatorOptions.LanguageManager.Culture = new System.Globalization.CultureInfo("ru-RU");
+});
+#endregion
 
 var app = builder.Build();
 

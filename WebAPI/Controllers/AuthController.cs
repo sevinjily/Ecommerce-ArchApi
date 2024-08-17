@@ -15,7 +15,7 @@ namespace WebAPI.Controllers
         {
             _authService = authService;
         }
-        [HttpPost]
+        [HttpPost("[action]")]
         public async Task<IActionResult> Register(RegisterDTO registerDTO)
         {
             var result=await _authService.RegisterAsync(registerDTO);
@@ -23,6 +23,15 @@ namespace WebAPI.Controllers
             
                 return Ok(result);
             return BadRequest(result);  
+        }
+        [HttpPost("[action]")]
+        public async Task<IActionResult> Login(LoginDTO loginDTO)
+        {
+            var result=await _authService.LoginAsync(loginDTO);
+            if (result.Success)
+
+                return Ok(result);
+            return BadRequest(result);
         }
     }
 }
