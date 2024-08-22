@@ -1,5 +1,6 @@
 ﻿using Business.Abstract;
 using Business.FluentValidation.AuthValidations;
+using Business.StatusMessages;
 using Core.Entities.Concrete;
 using Core.Utilities.Results.Abstract;
 using Core.Utilities.Results.Concrete.ErrorResults;
@@ -37,7 +38,7 @@ namespace Business.Concrete
                 checkUser= await _userManager.FindByNameAsync(loginDTO.UserNameOrEmail);
             
            if(checkUser == null)
-           return new ErrorDataResult<Token>("Belə bir istifadəçi yoxdur.",HttpStatusCode.BadRequest);
+           return new ErrorDataResult<Token>(AuthMessage.UserNotFound,HttpStatusCode.BadRequest);
 
            var result= await _signInManager.PasswordSignInAsync(checkUser, loginDTO.Password,true,false);
             var roles = await _userManager.GetRolesAsync(checkUser);
@@ -64,6 +65,12 @@ namespace Business.Concrete
             if (user != null && user.RefreshTokenExpiredDate > DateTime.UtcNow)
             {
                 Token token=await _tokenService.CreateAccessToken(user, roles.ToList());
+                token.RefreshToken=refreshToken;
+                return new SuccessDataResult<Token>(data:token,HttpStatusCode.OK);
+            }
+            else
+            {
+                return new ErrorDataResult<Token>(message:AuthMessage.UserNotFound,HttpStatusCode.BadRequest);
             }
         }
 

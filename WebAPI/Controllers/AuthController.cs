@@ -31,7 +31,18 @@ namespace WebAPI.Controllers
             if (result.Success)
 
                 return Ok(result);
+           
             return BadRequest(result);
         }
-    }
+        [HttpPost("[action]")]
+        public async Task<IActionResult> RefreshTokenLogin(string refreshToken)
+        {
+            var result= await _authService.RefreshTokenLoginAsync(refreshToken);
+            if (result.Success)
+            
+                return Ok(result);
+            return BadRequest(result);
+        }
+
+    };
 }

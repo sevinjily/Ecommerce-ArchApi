@@ -20,6 +20,8 @@ namespace Business.DependencyResolver
             services.AddScoped<ICategoryDAL, EFCategoryDAL>();
             services.AddScoped<IAuthService,AuthManager>();
 
+            services.AddScoped<IRoleService,RoleManager>();
+
             services.AddIdentity<AppUser, AppRole>()
                 .AddEntityFrameworkStores<AppDbContext>()
                 .AddDefaultTokenProviders();
