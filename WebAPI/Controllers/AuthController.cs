@@ -1,5 +1,6 @@
 ﻿using Business.Abstract;
 using Entities.DTOs.AuthDTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,28 +19,45 @@ namespace WebAPI.Controllers
         [HttpPost("[action]")]
         public async Task<IActionResult> Register(RegisterDTO registerDTO)
         {
-            var result=await _authService.RegisterAsync(registerDTO);
+            var result = await _authService.RegisterAsync(registerDTO);
             if (result.Success)
-            
+
                 return Ok(result);
-            return BadRequest(result);  
+            return BadRequest(result);
         }
         [HttpPost("[action]")]
         public async Task<IActionResult> Login(LoginDTO loginDTO)
         {
-            var result=await _authService.LoginAsync(loginDTO);
+            var result = await _authService.LoginAsync(loginDTO);
             if (result.Success)
 
                 return Ok(result);
-           
+
             return BadRequest(result);
         }
         [HttpPost("[action]")]
         public async Task<IActionResult> RefreshTokenLogin(string refreshToken)
         {
-            var result= await _authService.RefreshTokenLoginAsync(refreshToken);
+            var result = await _authService.RefreshTokenLoginAsync(refreshToken);
             if (result.Success)
-            
+
+                return Ok(result);
+            return BadRequest(result);
+        }
+        [HttpPost("[action]/{userId}")]
+        public async Task<IActionResult> AssignRoleToUser(string userId, string[] roles)
+        {
+            var result = await _authService.AssignRoleToUserAsync(userId, roles);
+            if (result.Success)
+                return Ok(result);
+            return BadRequest(result);
+        }
+        [HttpPut("[action]/{userId}")]
+
+        public async Task<IActionResult> LogOut(string userId)
+        {
+            var result=await _authService.LogOutAsync(userId);
+            if(result.Success)
                 return Ok(result);
             return BadRequest(result);
         }

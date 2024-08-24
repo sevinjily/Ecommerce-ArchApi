@@ -1,4 +1,6 @@
-﻿using Business.Abstract;
+﻿using AutoMapper;
+using Business.Abstract;
+using Business.AutoMapper;
 using Business.Concrete;
 using Core.Entities.Concrete;
 using DataAccess.Abstract;
@@ -20,11 +22,20 @@ namespace Business.DependencyResolver
             services.AddScoped<ICategoryDAL, EFCategoryDAL>();
             services.AddScoped<IAuthService,AuthManager>();
 
+            services.AddScoped<IBrandDAL,EFBrandDAL>();
+            services.AddScoped<IBrandService, BrandManager>();
+
             services.AddScoped<IRoleService,RoleManager>();
 
             services.AddIdentity<AppUser, AppRole>()
                 .AddEntityFrameworkStores<AppDbContext>()
                 .AddDefaultTokenProviders();
+            var mapperConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile<MappingProfile>();
+            });
+            IMapper mapper = mapperConfig.CreateMapper();
+            services.AddSingleton(mapper); 
         }
     }
 }

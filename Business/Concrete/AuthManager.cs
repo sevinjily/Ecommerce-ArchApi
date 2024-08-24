@@ -31,6 +31,29 @@ namespace Business.Concrete
             _tokenService = tokenService;
         }
 
+        public async Task<IResult> AssignRoleToUserAsync(string userId, string[] roles)
+        {
+            var checkUser=await _userManager.FindByIdAsync(userId);
+            if (checkUser == null)
+            return new ErrorResult(message:AuthMessage.UserNotFound,statusCode:HttpStatusCode.NotFound);
+
+            var result=await _userManager.AddToRolesAsync(checkUser,roles);
+
+            if(result.Succeeded)
+            
+                return new SuccessResult(statusCode: HttpStatusCode.OK);
+            else
+            {
+                string response=string.Empty;
+                foreach (var error in result.Errors)
+                {
+                    response += error.Description+". ";
+                }
+                return new ErrorResult(response,statusCode:HttpStatusCode.OK);
+            }
+            
+        }
+
         public async Task<IDataResult<Token>> LoginAsync(LoginDTO loginDTO)
         {
            var checkUser=await _userManager.FindByEmailAsync(loginDTO.UserNameOrEmail);
@@ -56,6 +79,19 @@ namespace Business.Concrete
                 return new ErrorDataResult<Token>("Parol və ya E-poçt yanlışdır!", HttpStatusCode.BadRequest);
 
             }
+        }
+
+        public async Task<IResult> LogOutAsync(string userId)
+        {
+            var findUser=await _userManager.FindByIdAsync(userId);
+            if(findUser == null)
+                return new ErrorResult(AuthMessage.UserNotFound,HttpStatusCode.Unauthorized);
+
+            findUser.RefreshToken = null;
+            findUser.RefreshTokenExpiredDate= null;
+
+            await _userManager.UpdateAsync(findUser);
+            return new SuccessResult(HttpStatusCode.OK);    
         }
 
         public async Task<IDataResult<Token>> RefreshTokenLoginAsync(string refreshToken)

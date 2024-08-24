@@ -154,3 +154,4 @@ C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\WebAPI\bin\Debug\net8.0\Mic
 C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\WebAPI\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\WebAPI\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\WebAPI\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Asus\source\repos\Ecommerce-ArchitectureApi\WebAPI\bin\Debug\net8.0\AutoMapper.dll

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TKAthkhVAyqqdMdZ7eUYuZdcdUEashzDva5RTjff/ETZ/M7ZdxKY55kk3GD8ZGWMT5KJg+uVo+c+vUD/LMgZVQ==",
+  "dgSpecHash": "WcjTPsW6WeQ0oEdEWD+6R+FM9Gor6r+K2gW+B9kvEPbbvGZsfrlDGOq8d8PX1P3NIYpBAW2hO8TaSrN29DdWBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Asus\\source\\repos\\Ecommerce-ArchitectureApi\\Business\\Business.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
