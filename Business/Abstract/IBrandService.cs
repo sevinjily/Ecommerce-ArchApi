@@ -11,5 +11,6 @@ namespace Business.Abstract
     public interface IBrandService
     {
         IResult Create(AddBrandDTO model);
+        IResult Update(UpdateBrandDTO model);
     }
 }

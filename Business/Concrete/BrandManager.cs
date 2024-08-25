@@ -26,7 +26,16 @@ namespace Business.Concrete
         public IResult Create(AddBrandDTO model)
         {
             var map=_mapper.Map<Brand>(model);
+            map.CreatedDate = DateTime.Now;
             _brandDAL.Add(map); 
+            return new SuccessResult(System.Net.HttpStatusCode.OK);
+        }
+
+        public IResult Update(UpdateBrandDTO model)
+        {
+            //var findBrand = _brandDAL.Get(x=>x.Id==Guid.Parse(model.Id);
+            var map = _mapper.Map<Brand>(model);
+            _brandDAL.Update(map);
             return new SuccessResult(System.Net.HttpStatusCode.OK);
         }
     }

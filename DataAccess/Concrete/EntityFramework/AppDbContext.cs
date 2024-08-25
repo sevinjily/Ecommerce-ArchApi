@@ -1,4 +1,5 @@
 ﻿using Core.Entities.Concrete;
+using Entities.Common;
 using Entities.Concrete;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -22,5 +23,35 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductLanguage> ProductLanguages { get; set; }
         public DbSet<ProductPhoto> ProductPhotos { get; set; }
+        public override int SaveChanges()
+        {
+            //var entities = ChangeTracker.Entries()
+            //    .Where(x => x.State == EntityState.Added||x.State==EntityState.Modified)
+            //    .Select(x=>x.Entity)
+            //    .OfType<BaseEntity>();
+            var datas=ChangeTracker.Entries<BaseEntity>();
+            foreach (var data in datas)
+            {
+                //switch (data.State)
+                //{
+                //    case EntityState.Added:
+                //        data.Entity.CreatedDate =DateTime.UtcNow   ; 
+                //        break;
+                //    case EntityState.Modified:
+                //        data.Entity.UpdatedDate =DateTime.UtcNow ;
+                //        break;
+                //    default:
+                //        data.Entity.CreatedDate = DateTime.UtcNow ;
+                //        break;
+                //}
+                _ = data.State switch
+                {
+                    EntityState.Added => data.Entity.CreatedDate = DateTime.Now,
+                    EntityState.Modified => data.Entity.UpdatedDate = DateTime.Now,
+                    _ => DateTime.Now,
+                };
+            }
+            return base.SaveChanges();
+        }
     }
 }

@@ -19,8 +19,17 @@ namespace WebAPI.Controllers
         [HttpPost]
         public IActionResult Create(AddBrandDTO model)
         {
+          
             var result=_brandService.Create(model);
            return Ok(result);
+        }
+        [HttpPut("{id}")]
+        public IActionResult Update(Guid id,UpdateBrandDTO model)
+        {
+            model.Id = id;
+            var result = _brandService.Update(model);
+            return Ok(result);
+
         }
     }
 }

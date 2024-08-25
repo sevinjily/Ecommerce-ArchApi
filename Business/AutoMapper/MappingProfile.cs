@@ -14,6 +14,8 @@ namespace Business.AutoMapper
         public MappingProfile()
         {
             CreateMap<AddBrandDTO,Brand >().ReverseMap();
+            CreateMap<UpdateBrandDTO, Brand>().ReverseMap();
+
         }
     }
 }
